@@ -83,9 +83,9 @@ namespace 小飛雞.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap Flap_up {
+        internal static System.Drawing.Bitmap Flappy_Bird_down {
             get {
-                object obj = ResourceManager.GetObject("Flap_up", resourceCulture);
+                object obj = ResourceManager.GetObject("Flappy Bird down", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,29 +93,9 @@ namespace 小飛雞.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap Flappy_Bird_Master_Sheet12 {
+        internal static System.Drawing.Bitmap Flappy_Bird_up {
             get {
-                object obj = ResourceManager.GetObject("Flappy Bird Master Sheet12", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Bitmap Flappy_Bird_Master_Sheet12__1_ {
-            get {
-                object obj = ResourceManager.GetObject("Flappy Bird Master Sheet12 (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
-        /// </summary>
-        internal static System.Drawing.Bitmap Flappy_Birds {
-            get {
-                object obj = ResourceManager.GetObject("Flappy_Birds", resourceCulture);
+                object obj = ResourceManager.GetObject("Flappy Bird up", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

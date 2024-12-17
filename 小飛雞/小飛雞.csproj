@@ -59,18 +59,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -84,31 +84,13 @@
     <None Include="Resources\Day.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Flap Down.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Flap up.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Flap_up.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Flap_Down.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Flap_Down1.png" />
+    <None Include="Resources\Flappy Bird down.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Flap_up1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Flappy_Birds.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Flappy Bird Master Sheet12 %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Flappy Bird Master Sheet12.png" />
+    <None Include="Resources\Flappy Bird up.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
